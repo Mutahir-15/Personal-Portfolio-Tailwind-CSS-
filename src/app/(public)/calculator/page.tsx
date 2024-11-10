@@ -14,7 +14,7 @@ function page() {
             height={600} />
           </div>
           <div>
-             <h1 className='text-5xl font-protest-strike font-normal w-full md:text-6x mb-4'>CLI Based Simple Calcultor.</h1>
+             <h1 className='text-5xl font-protest-strike font-normal w-full md:text-6x mb-4'>CLI Based Simple Calculator.</h1>
              <p>This page showcases my static resume, meticulously crafted using HTML and CSS.<br /> Explore my detailed qualifications, experience, and skills presented in a clean and visually appealing format.<br /> Dive in to see my journey and accomplishments in the tech industry.</p>
           </div>
       </div>
