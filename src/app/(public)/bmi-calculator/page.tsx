@@ -5,17 +5,17 @@ function page() {
   return (
     <main>
     <section>
-      <div className='relative flex flex-col md:flex-row items-center justify-between p-10 md:p-20 lg:p-32 xl:p-56 rounded-md'>
+      <div className='relative flex flex-col md:flex-row items-center gap-10 justify-between p-10 md:p-20 lg:p-32 xl:p-56 rounded-md'>
           {/*Text Area*/}
           <div className='grid'>
-            <Image src="/images/calculator.jpeg"
+            <Image src="/images/bmi.png"
             alt='Resume'
             width={600}
             height={600} />
           </div>
           <div>
-             <h1 className='text-5xl font-protest-strike font-normal w-full md:text-6x mb-4'>Static Interactive Resume</h1>
-             <p>This page showcases my static resume, meticulously crafted using HTML and CSS.<br /> Explore my detailed qualifications, experience, and skills presented in a clean and visually appealing format.<br /> Dive in to see my journey and accomplishments in the tech industry.</p>
+             <h1 className='text-5xl font-protest-strike font-normal w-full md:text-6x mb-4'>CLI Based BMI Calculator.</h1>
+             <p>Welcome to my BMI Calculator! This tool is built using TypeScript to help you <br />effortlessly calculate your Body Mass Index (BMI). Simply input your height and weight, and instantly receive your BMI value along with a health category<br /> based on standard BMI ranges. The clean and intuitive interface ensures a user-friendly experience,<br /> making it easy to monitor and maintain your health.</p>
           </div>
       </div>
     </section>
