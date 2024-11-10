@@ -33,7 +33,7 @@ export default function Home() {
           {/* Image Section */}
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <Image 
-              src={"/images/04.PNG"}
+              src={"/images/04.png"}
               alt="Profile Image"
               width={500}
               height={500}
