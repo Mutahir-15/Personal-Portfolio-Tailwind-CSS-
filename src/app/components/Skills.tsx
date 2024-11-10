@@ -40,6 +40,27 @@ function Skills() {
                 alt='CSS Image'
                 width={150}
                 height={100}
+                />
+                <Image
+                  className="rounded-lg shadow-lg"
+                  src={"/images/nextjs.png"}
+                  alt='Nextjs Image'
+                  width={150}
+                  height={100}
+              />
+              <Image
+                className="rounded-lg shadow-lg"
+                src={"/images/github.png"}
+                alt='Github Image'
+                width={150}
+                height={100}
+                />
+              <Image
+                className="rounded-lg shadow-lg"
+                src={"/images/tailwind.png"}
+                alt='Tailwind CSS Image'
+                width={150}
+                height={50}
               />
             </div>
             <p className="text-2xl italic text-yellow-200 mt-5">Continuously improving and expanding my skill set!</p>

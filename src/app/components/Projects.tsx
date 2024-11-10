@@ -8,11 +8,11 @@ function Projects() {
       <section className="grid grid-cols-1 md:grid-cols-2 gap-10 p-10 md:p-20 lg:p-32 xl:p-40">
         {/* Text Section */}
         <div className="flex flex-col justify-center text-left space-y-5">
-          <h1 className="text-4xl font-protest-strike font-normal w-full md:text-6xl">Projects Here</h1>
+          <h1 className="text-4xl font-protest-strike font-normal w-full md:text-6xl">Projects</h1>
           <p className="text-2xl">
-            Welcome to my Projects section!<br /> Here you'll find a showcase of my latest work, featuring a variety of web development and design projects.
-            From intuitive user interfaces built with Tailwind CSS and Figma to some CLI applications using TypeScript, 
-            each project reflects my passion for creating efficient, scalable, and user-friendly solutions.
+          Welcome to my projects showcase!<br /> Here you'll find a selection of my recent work, including a sophisticated BMI calculator, <br />
+          and an engaging number guessing game, both built with TypeScript. I've also created a sleek static resume page using HTML and CSS.<br />
+          These projects reflect my skills and creativity in web development. Explore and enjoy!
           </p>
         </div>
         {/* Image Section */}
