@@ -10,11 +10,6 @@ export default function Home() {
     <main>
       {/* Hero Section with Video Background */}
       <section className="">
-        {/* <div className="absolute inset-0 z-0 h-16">
-          <video className="w-full h-full object-cover" autoPlay loop muted>
-            <source src="/videos/bg1.mp4" type="video/mp4" />
-          </video>
-        </div> */}
         <div className="relative flex flex-col md:flex-row items-center justify-between p-10 md:p-20 lg:p-32 xl:p-48  rounded-md">
           {/* Text Section */}
           <div className="md:w-1/2 mb-10 md:mb-0 text-left">
@@ -28,7 +23,7 @@ export default function Home() {
             </button>  
             <button className=" ml-3 px-7 py-2 bg-orange-500 text-white border-2 border-black rounded-lg text-lg tracking-wide font-semibold transition ease-in-out duration-300 hover:bg-white hover:text-orange-500 cursor-pointer">
               <Link href="/contact">Resume</Link>
-            </button>               {/* Added Contact Me button */}
+            </button>
           </div>
           {/* Image Section */}
           <div className="md:w-1/2 flex justify-center md:justify-end">
