@@ -12,7 +12,7 @@ const config: Config = {
   		fontFamily: {
   			'protest-strike': ['Protest Strike"', 'sans-serif'],
   			'concert-one': ['Concert One"', 'sans-serif'],
-  			arima: ['Arima"', 'cursive']
+  			'arima': ['Arima"', 'cursive']
   		},
   		colors: {
   			background: 'hsl(var(--background))',
