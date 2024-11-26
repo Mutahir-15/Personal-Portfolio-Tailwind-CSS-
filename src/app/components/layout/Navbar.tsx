@@ -93,7 +93,7 @@ function Navbar() {
 
       {/* Contact Me Button */}
       <div className="flex items-center justify-center">
-        <button className="mt-2 h-12 px-7 py-0 bg-orange-500 text-white border-2 border-transparent rounded-lg text-lg tracking-wide font-semibold transition ease duration-300 hover:bg-orangered hover:shadow-[0_0_25px_orange] hover:text-white">
+        <button className=" mt-2 h-12  px-7 py-0 bg-orange-500 text-white border-2 border-transparent rounded-lg text-[15px] sm:text-lg tracking-wide font-semibold transition ease duration-300 hover:bg-orangered hover:shadow-[0_0_25px_orange] hover:text-white">
           <Link href="/contact">Contact Me</Link>
         </button>
       </div>
