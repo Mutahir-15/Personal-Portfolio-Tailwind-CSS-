@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { Menu } from "lucide-react";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 
 function Navbar() {
   return (
@@ -22,9 +22,9 @@ function Navbar() {
         <SheetTrigger className="md:hidden flex justify-center items-center">
           <Menu className="text-white text-3xl cursor-pointer" />
         </SheetTrigger>
-        <SheetContent className="bg-white text-black">
+        <SheetContent className="text-black gap-10">
           <nav className="flex flex-col gap-6 text-center text-2xl">
-            <ul className="text-white">
+            <ul>
               <li>
                 <Link
                   href="/"

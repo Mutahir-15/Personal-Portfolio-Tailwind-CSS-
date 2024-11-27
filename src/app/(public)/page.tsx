@@ -10,7 +10,7 @@ export default function Home() {
     <main>
       {/* Hero Section with Video Background */}
       <section className="">
-        <div className="relative flex flex-col md:flex-row items-center justify-between p-10 md:p-20 lg:p-32 xl:p-48  rounded-md">
+        <div className="relative flex flex-col md:flex-row items-center justify-between p-20 md:p-24 lg:p-32 xl:p-48  rounded-md">
           {/* Text Section */}
           <div className="md:w-1/2 mb-10 md:mb-0 text-left">
             <h3 className="text-5xl font-protest-strike font-normal w-full md:text-6x mb-4">Hi</h3>
