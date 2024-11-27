@@ -10,9 +10,9 @@ const config: Config = {
   theme: {
   	extend: {
   		fontFamily: {
-  			'protest-strike': ['Protest Strike"', 'sans-serif'],
-  			'concert-one': ['Concert One"', 'sans-serif'],
-  			'arima': ['Arima"', 'cursive']
+  			'protest-strike': ['Protest Strike', 'sans-serif'],
+  			'concert-one': ['Concert One', 'sans-serif'],
+  			'arima': ['Arima', 'cursive'],
   		},
   		colors: {
   			background: 'hsl(var(--background))',
